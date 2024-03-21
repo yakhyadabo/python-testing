@@ -1,0 +1,13 @@
+*
+!.gitattributes
+!.gitignore
+!.gitkeep
+!README.md
+!Makefile
+!Dockerfile
+!*.yml
+!*.yaml
+!*.py
+!*.json
+!*.sh
+!*/
