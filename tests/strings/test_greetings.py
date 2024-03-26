@@ -10,5 +10,6 @@ class TestGreetings(unittest.TestCase):
         ans = greetings.hello("John")
         self.assertEqual(ans, "Hello John")
 
-    if __name__ == '__main__':
-        unittest.main()
+
+if __name__ == '__main__':
+    unittest.main()
