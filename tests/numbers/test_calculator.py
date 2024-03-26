@@ -2,6 +2,7 @@ import unittest
 
 from src.numbers.calculator import Calculator
 
+
 class TestCalculator(unittest.TestCase):
 
     def test_inc(self):
@@ -11,8 +12,9 @@ class TestCalculator(unittest.TestCase):
 
     def test_sum(self):
         calculator = Calculator()
-        ans = calculator.sum(10,11)
+        ans = calculator.sum(10, 11)
         self.assertEqual(ans, 21)
+
 
 if __name__ == '__main__':
     unittest.main()
