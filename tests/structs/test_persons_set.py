@@ -1,7 +1,7 @@
 import unittest
 
 from src.model.person import Person
-from src.structs.sets.persons_set import PersonSet
+from src.structs.persons_set import PersonSet
 
 
 class TestPersonSet(unittest.TestCase):
