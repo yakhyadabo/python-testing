@@ -1,14 +1,16 @@
 import string
+import uuid
 
 
 class Person:
 
     def __init__(self, name: string, age: int):
+        self.pid = uuid.uuid4().int & (1<<64)-1
         self.name = name
         self.age = age
 
     def __str__(self):
-        return f"{self.name}({self.age})"
+        return f"{self.pid}({self.name} {self.age})"
 
     def __repr__(self):
         return f"SetObject ({self.name} {self.age} (id: {id(self)}"
