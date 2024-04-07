@@ -1,0 +1,25 @@
+
+== Setup in MACOS
+
+=== Install pyenv
+1. Install pyenv with brew to manage different Python versions:
+brew install pyenv
+2. List all installable versions
+pyenv install --list
+3. Install Python  3.12.2
+pyenv install  3.12.2
+4. List installed versions
+pyenv versions
+5. Set global python version
+
+$ pyenv global 3.12.2
+$ echo "alias python=python3" >> ~/.zshrc
+
+// echo 'eval "$(pyenv init --path)"' >> ~/.zshrc
+
+=== Install pip
+
+echo "alias pip=pip3" >> ~/.zshrc
+
+--break-system-packages
+
