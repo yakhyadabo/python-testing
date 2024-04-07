@@ -2,7 +2,7 @@
 !.gitattributes
 !.gitignore
 !.gitkeep
-!README.md
+!README.adoc
 !Makefile
 !Dockerfile
 !*.yml
